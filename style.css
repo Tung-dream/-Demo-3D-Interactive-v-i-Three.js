@@ -1,0 +1,47 @@
+ h1 {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      color: white;
+      z-index: 1;
+      font-family: Arial, sans-serif;
+    }
+
+    #modelSelect {
+            position: absolute;
+            top: 75px;
+            left: 10px;
+            z-index: 1000;
+            font-size: 16px;
+            padding: 8px;
+            border-radius: 4px;
+            border: none;
+            background: rgba(255, 255, 255, 0.9);
+        }
+    #loading {
+            position: absolute;
+            top: 90px;
+            left: 10px;
+            color: white;
+            font-size: 18px;
+            z-index: 1000;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 10px;
+            border-radius: 4px;
+        }
+
+        #controls {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            color: white;
+            z-index: 1000;
+            background: rgba(0, 0, 0, 0.7);
+            padding: 15px;
+            border-radius: 8px;
+            font-size: 14px;
+        }
+        
+        .dg.ac {
+            z-index: 1001 !important;
+        }
